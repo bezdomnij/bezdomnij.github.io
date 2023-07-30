@@ -42,7 +42,7 @@ div {
     width: 70%;
 }
 
-section {
+section, footer {
     margin-left: auto;
     margin-right: auto;
     width: 52%;
@@ -160,4 +160,8 @@ hr {
     height: 4px;
     background: dimgrey;
     margin-bottom: 70px;
+}
+
+footer {
+    background: #ccc;
 }
