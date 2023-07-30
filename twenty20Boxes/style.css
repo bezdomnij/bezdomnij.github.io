@@ -1,0 +1,26 @@
+section {
+    width: fit-content;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 20px;
+    gap: 15px;
+    margin: 20px;
+}
+
+div {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(56, 128, 229);
+    /* flex: 1; */
+    border: thin solid;   
+}
+
+.orange {
+    background-color: rgb(249, 111, 77);
+}
+
+div.orange {
+    background-color: rgb(48, 62, 132);
+}
