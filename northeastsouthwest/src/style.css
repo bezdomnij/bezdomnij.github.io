@@ -1,0 +1,34 @@
+main {
+  color: white;
+  border: 5px solid #4285f4;
+  text-align: center;
+  width: 300px;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+    padding: 10% 0;
+    margin: 0;
+/*     height: 30px; */
+    text-align: center;
+}
+
+.red {
+  background: #E67676;
+}
+
+.yellow {
+  background: #F2F062;
+}
+
+.green {
+  background: #A9E6E6
+}
+
+.blue {
+  background: #7692E4
+}

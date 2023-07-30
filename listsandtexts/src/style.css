@@ -1,0 +1,25 @@
+main {
+  width: 400px;
+}
+h1 {
+  color: crimson;
+}
+
+h2 {
+  color: purple;
+}
+
+h1, h2, p {
+  padding: 2px 0;
+  margin: 0;
+}
+
+ol {
+  list-style-type: upper-roman;
+  text-decoration: underline;
+}
+
+.pink {
+  color: fuchsia;
+  text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+.container {
+    padding: 0;
+    width: 400px;
+    height: 150px;
+    background: #ffd62a;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+/*         justify-content: space-between; */
+    column-gap: 5px;
+    align-items: flex-end;
+/*     flex-wrap: wrap; */
+}
+
+.item {
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    /*     border: 1px solid black; */
+    /*     margin: 0 5px; */
+    background: #b02afe;
+}

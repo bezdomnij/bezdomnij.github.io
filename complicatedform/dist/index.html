@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - ComplicatedForm</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+<form id="complicated-form">
+    <fieldset>
+        <legend>Interesting application form &#128580</legend>
+        <fieldset form="complicated-form">
+            <legend>What is your name?</legend>
+            <input type="text" id="inputName" form="complicated-form">
+            <label for="inputName"></label>
+        </fieldset>
+        <fieldset form="complicated-form">
+            <legend>What is your favourite color?</legend>
+            <div>
+                <input type="checkbox" id="red" name="red" form="complicated-form">
+                <label for="red">Red</label>
+            </div>
+            <div>
+                <input type="checkbox" id="green" name="green" form="complicated-form">
+                <label for="green">Green</label>
+            </div>
+            <div>
+                <input type="checkbox" id="blue" name="blue" form="complicated-form">
+                <label for="blue">Blue</label>
+            </div>
+            <div>
+                <input type="checkbox" id="other-checker" name="other-checker" form="complicated-form">
+                <label for="other-checker">Other</label>
+                <input type="text" id="other-text" name="other-text" form="complicated-form">
+                <label for="other-text"></label>
+            </div>
+        </fieldset>
+        <fieldset form="complicated-form">
+            <legend>Would you like to become a developer?</legend>
+            <div>
+                <input type="radio" name="yes-developer" id="en_yes" value="yes" form="complicated-form">
+                <label for="en_yes">Yes</label>
+            </div>
+            <div>
+                <input type="radio" name="yes-developer" id="cz_yes" value="ano" form="complicated-form">
+                <label for="cz_yes">Ano</label>
+            </div>
+            <div>
+                <input type="radio" name="yes-developer" id="hu_yes" value="igen" form="complicated-form">
+                <label for="hu_yes">Igen</label>
+            </div>
+            <div>
+                <input type="radio" name="yes-developer" id="ch_yes" value="是" form="complicated-form">
+                <label for="ch_yes">是</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Why would you like to become a programmer?</legend>
+            <textarea name="why-developer" id="why-developer" cols="30" rows="8"></textarea>
+            <label for="why-developer"></label>
+        </fieldset>
+        <button>Submit</button>
+    </fieldset>
+</form>
+</body>
+<!-- partial -->
+  
+</body>
+</html>

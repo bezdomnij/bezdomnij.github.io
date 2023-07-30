@@ -1,0 +1,27 @@
+section {
+  width: 90%;
+  /*border: thin solid black;*/
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Sen', sans-serif;
+  font-size: 25px;
+}
+
+a {
+  display: block;
+  color: green;
+/*   text-decoration: none; */
+}
+
+a:hover {
+  color: lime;
+  text-decoration: none;
+}
+
+/* a:visited {
+  color: purple;
+} */
+
+a:active {
+  color: red;
+}

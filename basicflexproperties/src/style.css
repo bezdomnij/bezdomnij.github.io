@@ -1,0 +1,34 @@
+div {
+/*   border: thin solid black; */
+  width: 300;
+}
+
+.container {
+/*   margin-left: auto; */
+/*   margin-right: auto; */
+  display: flex;
+  width: fit-content;
+/*   flex-direction: row-reverse; */
+/*   flex-direction: column; */
+/*   flex-direction: column-reverse; */
+  flex-wrap: wrap;
+/*   justify-content: space-around; */
+  justify-content: flex-end;
+  width: 300px;
+}
+.item {
+  width: 150px;
+  height: 150px;
+}
+
+.green {
+  background: #51d400;
+}
+
+.yellow {
+  background: #ffd62a;
+}
+
+.purple {
+  background: #b02afe
+}

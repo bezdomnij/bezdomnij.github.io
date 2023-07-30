@@ -1,0 +1,234 @@
+html, body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: #222222;
+    color: white;
+    justify-content: center;
+    flex-basis: content;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: center;
+    column-gap: 40px;
+    margin: 0;
+    padding: 20px;
+}
+
+article {
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.header {
+    flex: 3;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu li {
+    /*border: solid thin;*/
+    font-size: 40px;
+    padding: 20px;
+    /*flex: 1;*/
+}
+
+span {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+/*img {*/
+/*    !*width: 100%;*!*/
+/*    border-top: solid 5px black;*/
+/*    height: 500px;*/
+/*}*/
+
+header {
+    /*border-top: solid 5px;*/
+    background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    flex: 2;
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+    color: #222;
+    border: thin solid;
+    /*!*padding-left: 200px;*!*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*background-repeat: no-repeat;*/
+    /*width: 100%;*/
+    /*height: 0;*/
+    /*padding-top: 26.32%; !* (img-height / img-width * container-width) *!*/
+    /* (853 / 1280 * 100) */
+    /*width: 90%;*/
+}
+
+.righter {
+    position: relative;
+    margin-left: 60px;
+}
+
+.bigger {
+    /*margin-left: 40px;*/
+}
+
+header h1 {
+    position: absolute;
+    bottom: 53px;
+    left: 100px;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1;
+}
+
+header, main, footer, div {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+div {
+    flex: 2
+}
+
+section {
+    flex: 3;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 52%;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    color: #222;
+    line-height: 1.5;
+    padding: 0 35px;
+}
+
+p, li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-shadow: 5px 5px 20px #fff;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 20px;
+    padding-top: 0;
+    margin-bottom: 40px;
+}
+
+.thicker {
+    font-weight: 900;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+.qbox {
+    box-sizing: content-box;
+    /*border: thin solid;*/
+    /*width: 65%;*/
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    color: whitesmoke;
+    background: #2A2828FF;
+    position: relative;
+    height: fit-content;
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+
+/*blockquote::before {*/
+/*    !*content: '”';*!*/
+/*    content: '“\a';*/
+/*    !* then the styling *!*/
+/*    white-space: pre;*/
+/*    font-size: 100px;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+blockquote {
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
+    /*line-height: 1.2;*/
+    /*margin-top: 50px;*/
+    padding-right: 0;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    /*border: solid thick;*/
+    width: 50%;
+}
+.qmark {
+    /* then the styling */
+    font-family: 'Abril Fatface', cursive;
+    font-size: 160px;
+    margin: 5px 0 0;
+    padding: 0;
+    line-height: 0.5;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 0;
+    /*padding-top: 40px;*/
+    /*padding-bottom: 50px;*/
+    padding: 40px 40px 50px 40px;
+}
+
+h3, h4 {
+    letter-spacing: -1px;
+}
+h3 {
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    /*border: solid thin;*/
+}
+
+h4 {
+    /*border: solid thin;*/
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 4px;
+    background: dimgrey;
+    margin-bottom: 70px;
+}

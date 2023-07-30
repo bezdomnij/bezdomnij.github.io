@@ -1,0 +1,19 @@
+p {
+  display: inline;
+  background: red;
+}
+
+div {
+  background: orange;
+  padding: 20px;
+}
+
+h2 {
+  display: inline;
+  background: orange;
+  margin: 100px 200px;
+}
+
+h1 {
+  padding: 20px;
+}

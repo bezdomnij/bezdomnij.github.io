@@ -1,0 +1,163 @@
+html, body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+}
+span {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    border-top: solid 5px black;
+}
+
+header {
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+    color: #222;
+}
+
+header h1 {
+    position: absolute;
+    bottom: 53px;
+    left: 200px;
+    font-size: 36px;
+    margin: 0;
+    line-height: 1;
+}
+
+header, main, footer, div {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+div {
+    width: 70%;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    color: #222;
+    line-height: 1.5;
+    padding-top: 35px;
+}
+
+p, li {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    /*text-shadow: dimgrey;*/
+    text-shadow: 5px 5px 20px #fff;
+    /*text-shadow: 1px 10px #ccc;*/
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 20px;
+    padding-top: 0;
+    margin-bottom: 40px;
+}
+
+.thicker {
+    font-weight: 900;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+.qbox {
+    box-sizing: content-box;
+    /*border: thin solid;*/
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    color: whitesmoke;
+    background: #2A2828FF;
+    position: relative;
+    height: fit-content;
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+
+/*blockquote::before {*/
+/*    !*content: '”';*!*/
+/*    content: '“\a';*/
+/*    !* then the styling *!*/
+/*    white-space: pre;*/
+/*    font-size: 100px;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+blockquote {
+    font-size: xxx-large;
+    width: 90%;
+    font-family: 'Abril Fatface', cursive;
+    /*line-height: 1.2;*/
+    /*margin-top: 50px;*/
+    margin-bottom: 40px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    /*border: solid thin;*/
+}
+.qmark {
+    /* then the styling */
+    font-family: 'Abril Fatface', cursive;
+    font-size: 160px;
+    margin: 5px 0 0;
+    padding: 0;
+    line-height: 0.5;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+h3, h4 {
+    letter-spacing: -1px;
+}
+h3 {
+    line-height: 1.2;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    /*border: solid thin;*/
+}
+
+h4 {
+    /*border: solid thin;*/
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 4px;
+    background: dimgrey;
+    margin-bottom: 70px;
+}
