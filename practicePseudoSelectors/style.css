@@ -1,0 +1,18 @@
+div {
+    border: solid thin;
+    width: 300px;
+    padding: 10px;
+}
+
+div.extreme {
+    border-top: none;
+    border-bottom: none;
+}
+
+body {
+    padding: 20px;;
+}
+
+div:hover {
+    background-color: orange;
+}
