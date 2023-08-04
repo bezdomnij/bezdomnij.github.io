@@ -8,7 +8,7 @@ section {
     text-align: center;
 }
 
-button {
+button, input {
     font-size: 21px;
     text-align: center;
     width: max-content;
@@ -26,4 +26,13 @@ h3 {
 
 .colorful {
     background-color: chartreuse;
+}
+
+label {
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+input {
+    text-align: left;
 }
