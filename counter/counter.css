@@ -1,0 +1,27 @@
+body {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+main {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #cccccc;
+    width: 50%;
+}
+
+h1, h2 {
+    text-align: left;
+}
+
+section {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #A9E6E6;
+    padding: 10%;
+}
+
+button {
+    font-size: 21px;
+    font-weight: 600;
+}
