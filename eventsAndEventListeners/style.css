@@ -1,0 +1,29 @@
+section {
+    background-color: aquamarine;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    font-size: 21px;
+    text-align: center;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+.colorful {
+    background-color: chartreuse;
+}
