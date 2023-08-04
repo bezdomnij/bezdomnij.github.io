@@ -1,0 +1,38 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin: 20px;
+}
+
+main {
+    width: 80%;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    font-size: 21px;
+    font-weight: 700;
+    height: 50px;
+    flex: 1;
+}
+
+input{
+    flex: 1;
+    font-size: 21px;
+}
+
+li {
+    font-size: 28px;
+}
+
+.stricken {
+    text-decoration: line-through;
+}
